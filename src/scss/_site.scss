@@ -1,0 +1,37 @@
+#conteudo{
+	margin-top: 50px;
+
+	article{
+		width: 700px;
+		margin: 10px auto;
+		padding: 20px;
+		background-color: #FFF;
+		box-shadow: 2px 2px 0px rgba(0,0,0,.1);
+
+		span{
+			font-size: 9pt;
+			color: rgba(0,0,0,.8);
+			border-bottom: 2px solid rgba(0,0,0,.1);
+			display: block;
+
+			&.data-do-post{
+				margin-bottom: 10px;
+			}
+		}
+
+		figure{
+			float: left;
+			margin: 0 10px 10px 0;
+
+			figcaption{
+				font-size: 8pt;
+			}
+		}
+
+		p{
+			text-align: justify;
+			margin-bottom: 10px;
+			font-size: 12pt;
+		}
+	}
+}

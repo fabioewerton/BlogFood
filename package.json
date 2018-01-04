@@ -1,0 +1,36 @@
+{
+  "name": "blogfood",
+  "version": "2.0.0",
+  "description": "TecBlog layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tecblog",
+    "FabioEw",
+    "html",
+    "css",
+    "scss",
+    "gulp"
+  ],
+  "author": "FabioEw",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioewerton/BlogFood.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabioewerton/BlogFood/issues"
+  },
+  "homepage": "https://github.com/fabioewerton/BlogFood#readme"
+}

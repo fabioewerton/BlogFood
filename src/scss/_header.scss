@@ -1,0 +1,53 @@
+#header{
+	width: 100%;
+	padding: 5px 0;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 2px solid rgba(0,0,0,.2);
+
+
+	header{
+		width: 700px;
+		margin: 0 auto;
+
+		h1{
+			float: left;
+			margin-top: 5px;
+
+			span{
+				color: #00587A;
+			}
+		}
+
+		nav{
+			float: right;
+
+			ul{
+
+				li{
+					display: inline-block;
+					margin-top: 10px;
+
+					a{
+						padding: 5px 10px;
+						text-decoration: none;
+						
+						&:link{
+							color: #00587A;						}
+						&:visited{
+							color: #00587A;						}
+						&:hover{
+							color: #FFF;
+							transition: .3s;
+							background-color: #008891;						}
+						&:active{
+							color: #0F3057;
+						}
+					}
+				}
+			}
+		}
+	}
+}
